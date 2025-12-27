@@ -365,7 +365,7 @@ function handleKeyPress(e) {
 // Toggle pause
 function togglePause() {
   isPaused = !isPaused;
-  document.getElementById("status").textContent = isPaused ? "Paused" : "Playing...";
+  // Note: Status display removed to make room for high score and level
 }
 
 // End game
